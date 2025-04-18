@@ -90,4 +90,8 @@ public class CellPhone {
         System.out.println(this.owner + " is calling " + phoneNumber);
     }
 
+    public static void display (CellPhone cellPhone) {
+        cellPhone.getCellPhone();
+    }
+
 }

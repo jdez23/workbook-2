@@ -8,14 +8,13 @@ public class CellPhoneApplication {
 
         System.out.println("Hello, User 1!");
         userCellPhone1.createCellPhone();
-        System.out.println("The following cell phone information for user1 is:");
-        userCellPhone1.getCellPhone();
 
         System.out.println("Hello, User 1!");
         userCellPhone2.createCellPhone();
-        System.out.println("The following cell phone information for user2 is:");
-        userCellPhone2.getCellPhone();
 
         userCellPhone1.dial(userCellPhone2.phoneNumber);
+
+        CellPhone.display(userCellPhone1);
+        CellPhone.display(userCellPhone2);
     }
 }
